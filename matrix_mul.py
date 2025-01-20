@@ -14,11 +14,12 @@ Array2 = [200, 100]
 Ans = []
 # (300*200 + 500*100) as an example calculation
 
+# Iterate through each row in the Prices matrix
 for i in range(len(Prices)):
-    row_sum = 0
+    row_sum = 0  # Initialize the sum for the current row
     for j in range(len(Prices[0])):
-        # COMPLETE THE MISSING LOGIC HERE
-        pass
+        # Multiply each element in the row by the corresponding element in Array2
+        # # Append the row sum to the result list
 
-
-print(Ans)
+# Print the final result
+print("Total costs for each row:", Ans)
