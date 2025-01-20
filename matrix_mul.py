@@ -19,7 +19,9 @@ for i in range(len(Prices)):
     row_sum = 0  # Initialize the sum for the current row
     for j in range(len(Prices[0])):
         # Multiply each element in the row by the corresponding element in Array2
+        row_sum += Prices[i][j] * Array2[j]
         # # Append the row sum to the result list
+        Ans.append(row_sum)  # Append the row sum to the result list
 
 # Print the final result
 print("Total costs for each row:", Ans)
